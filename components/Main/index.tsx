@@ -13,7 +13,7 @@ const Main = () => {
       <div className="flex items-center flex-1">
         <div>
           <div className="font-bold text-4xl text-center sm:my-2 my-6 tracking-wide">
-            Hallo, I'm Ferdiyanzah
+            Hallo, I&apos;m Ferdiyanzah
           </div>
           <div className="tracking-wide text-center">
             A software developer with years of experience. My expertise lies in
@@ -25,9 +25,9 @@ const Main = () => {
             course <span className="border-b-2 border-black">HTML/CSS</span>.
             Sometimes I use{" "}
             <span className="border-b-2 border-black">Python</span> and{" "}
-            <span className="border-b-2 border-black">AWS</span>. I'm a lifelong
-            learner (currently taking a course on building Mobile Apps with
-            Flutter).
+            <span className="border-b-2 border-black">AWS</span>. I&apos;m a
+            lifelong learner (currently taking a course on building Mobile Apps
+            with Flutter).
           </div>
           <div className="flex gap-6 justify-center my-4">
             <a
@@ -40,6 +40,7 @@ const Main = () => {
               href="https://www.linkedin.com/in/mferdiyanzah/"
               className="hover:opacity-100 opacity-70"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <FiLinkedin size="1.75em" />
             </a>
@@ -47,6 +48,7 @@ const Main = () => {
               href="https://github.com/mferdiyanzah"
               className="hover:opacity-100 opacity-70"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <FiGithub size="1.75em" />
             </a>
